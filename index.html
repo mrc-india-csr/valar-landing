@@ -79,16 +79,14 @@
 
                         <div class="collapse navbar-collapse sub-menu-bar" id="navbarTwo">
                             <ul class="navbar-nav ml-auto">
-                                <li class="nav-item active"><a class="page-scroll" href="#home">HOME</a></li>
-                                <li class="nav-item"><a class="page-scroll" href="#services">ABOUT</a></li>
-                                <li class="nav-item"><a class="page-scroll" href="#contact">CONTACT</a></li>
-                                <li class="nav-item"><a class="page-scroll" href="#">LOGIN</a></li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">English</a>
-                                    <div class="dropdown-menu" aria-labelledby="dropdown01">
-                                        <a class="dropdown-item page-scroll" href="#">Tamil</a>
-                                    </div>
-                                </li>
+                                <li class="nav-item active"><a class="page-scroll" href="#home" data-i18n="home">HOME</a></li>
+                                <li class="nav-item"><a class="page-scroll" href="#services" data-i18n="about">ABOUT US</a></li>
+                                <li class="nav-item"><a class="page-scroll" href="#contact" data-i18n="contact">CONTACT</a></li>
+                                <li class="nav-item"><a class="page-scroll" href="#" data-i18n="login">LOGIN</a></li>
+                            </ul>
+                            <ul class="navbar-nav ml-auto locale-switcher">
+                                <li><a class="dropdown-item page-scroll" href="#" data-locale="en">English</a></li>
+                                <li><a class="dropdown-item page-scroll" href="#" data-locale="ta">தமிழ்</a></li>
                             </ul>
                         </div>
                     </nav> <!-- navbar -->
@@ -110,10 +108,10 @@
                             <div class="col-lg-7">
                                 <div class="slider-content">
                                     <img src="assets/images/cm-image.png" alt="CM">
-                                    <h1 class="title">Growing Tamil Nadu into a trillion-dollar manufacturing hub</h1>
-                                    <p class="text">Offer your services, share your past industry 4.0 projects in the industry, your research, and the infrastructure facilities available with you.</p>
+                                    <h1 class="title" data-i18n="header_line_1">Making Tamil Nadu a trillion dollar manufacturing hub</h1>
+                                    <p class="text" data-i18n="header_line_2">The Government of Tamil Nadu welcomes all Industry 4.0 service providers, researchers, and individuals to come together, collaborate and breakthrough the industrial 4.0 revolution.</p>
                                     <ul class="slider-btn rounded-buttons">
-                                        <li><a class="main-btn rounded-one" href="#">SIGN UP TODAY</a></li>
+                                        <li><a class="main-btn rounded-one" href="#" data-i18n="sign_up">SIGN UP TODAY</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -246,6 +244,7 @@
         </div> <!-- container -->
     </section>
 
+
     <!--====== CONTACT PART ENDS ======-->
     
     
@@ -279,7 +278,17 @@
     <!--====== Scrolling Nav js ======-->
     <script src="assets/js/jquery.easing.min.js"></script>
     <script src="assets/js/scrolling-nav.js"></script>
-    
+
+    <!--====== Language selection i18n js ======-->
+    <script src="assets/js/vendor/jQuery-i18n/jquery.i18n.js"></script>
+    <script src="assets/js/vendor/jQuery-i18n/jquery.i18n.messagestore.js"></script>
+    <script src="assets/js/vendor/jQuery-i18n/jquery.i18n.fallbacks.js"></script>
+    <script src="assets/js/vendor/jQuery-i18n/jquery.i18n.language.js"></script>
+    <script src="assets/js/vendor/jQuery-i18n/jquery.i18n.parser.js"></script>
+    <script src="assets/js/vendor/jQuery-i18n/jquery.i18n.emitter.js"></script>
+    <script src="assets/js/vendor/jQuery-i18n/jquery.i18n.emitter.bidi.js"></script>
+    <script src="assets/js/language-switcher.js"></script>
+   
     <!--====== Main js ======-->
     <script src="assets/js/main.js"></script>
     
