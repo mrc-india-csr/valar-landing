@@ -33,7 +33,7 @@ const EN = {
     "card_desc_3": "Offer suggestions to others problem statements / challenges",
     "contact_title": "Contact Us",
     "contact_address": "Department of Information Technology Government of Tamilnadu Namakkal Kavignar Maaligai Fort St George, Secretariat, Chennai-600009",
-    "follow_us": "Follow Us"
+    "follow_title": "Follow Us"
 
 }
 
@@ -64,7 +64,7 @@ const TA = {
     "card_desc_3": "மற்றவர்களின் பிரச்சனைகள் / சவால்களுக்கு உங்கள் யோசனையை பரிந்துரையுங்கள்.",
     "contact_title": "எங்களை தொடர்பு கொள்ளவும்",
     "contact_address": "தகவல் தொழில் நுட்பவியல் துறை, தமிழ் நாடு அரசு, நாமக்கல் கவிஞர் மாளிகை, புனித ஜார்ஜ் கோட்டை, தலைமை செயலகம், சென்னை - 600009",
-    "follow_us": "எங்களை பின்தொடரவும்"
+    "follow_title": "எங்களை பின்தொடரவும்"
 }
 
 
