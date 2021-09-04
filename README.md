@@ -6,3 +6,4 @@ Home page for TN Govt's Valar 4.0
 #updated footer
 #updated contents
 #updated footer alignment
+#mobile view
