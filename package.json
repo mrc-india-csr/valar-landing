@@ -1,0 +1,22 @@
+{
+  "name": "valar-landing",
+  "version": "1.0.0",
+  "description": "Home page for TN Govt's Valar 4.0   #added html file  #updated html file  #updated latest file #updated footer #updated contents #updated footer alignment #mobile view #social link #fixes scrool issue #fixes styles",
+  "main": "valar-landing-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrc-india-csr/valar-landing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrc-india-csr/valar-landing/issues"
+  },
+  "homepage": "https://github.com/mrc-india-csr/valar-landing#readme",
+  "dependencies": {
+    "node-static": "^0.7.11"
+  }
+}
