@@ -1,8 +1,18 @@
-var static = require('node-static');
-var http = require('http');
+const express = require('express');
+const { createProxyMiddleware } = require('http-proxy-middleware');
 
-var file = new(static.Server)('./');
+// Create Express Server
+const app = express();
 
-http.createServer(function (req, res) {
-  file.serve(req, res);
-}).listen(8080);
+// Configuration
+const PORT = 8080;
+const HOST = "localhost";
+
+app.use('/landing', express.static('./'));
+app.use('/**', createProxyMiddleware({ target: 'http://117.239.70.26/', changeOrigin: true }));
+
+
+// Start the Proxy
+app.listen(PORT, HOST, () => {
+  console.log(`Starting Proxy server at ${HOST}:${PORT}`);
+});

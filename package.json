@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/mrc-india-csr/valar-landing#readme",
   "dependencies": {
-    "node-static": "^0.7.11"
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^2.0.1"
   }
 }
