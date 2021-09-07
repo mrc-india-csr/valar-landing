@@ -5,11 +5,12 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 const app = express();
 
 // Configuration
-const PORT = 8080;
-const HOST = "localhost";
+const PORT = 80;
+const HOST = "0.0.0.0";//TODO Change this to the host ip
 
-app.use('/landing', express.static('./'));
-app.use('/**', createProxyMiddleware({ target: 'http://117.239.70.26/', changeOrigin: true }));
+app.use('/', express.static('./'));
+//TODO update the URL to where the valar login App is deployed
+app.use('/**', createProxyMiddleware({ target: 'http://localhost:8080/', changeOrigin: true }));
 
 
 // Start the Proxy
