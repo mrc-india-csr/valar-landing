@@ -10,6 +10,8 @@ To reach the hompage the url will be `http://<host>:<port>/`
 
 All other paths will be redirected to the valar angular app.
 
+The git repo contains the node_modules because it becomes easy to download and install the entire package on the server. As npm install will not work on that server
+
 # Login to the server to check if the service is running and restart it
 
 ## Connect to WinSCP and PuTTY
