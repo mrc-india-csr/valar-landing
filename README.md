@@ -6,7 +6,7 @@ This is a node JS Express - reverse proxy for Valar. This contains the static la
 
 To start `node valar-landing-server.js 1>log.out 2>err.out &`
 
-To reach the hompage the url will be `http://<host>:<port>/`
+To reach the hompage the url will be `http://localhost/` (Default port configured is 80)
 
 All other paths will be redirected to the valar angular app.
 
@@ -21,12 +21,12 @@ The git repo contains the node_modules because it becomes easy to download and i
 4. Enter password for appuser in PuTTY window (Note: you have to type in the passsword and press "Enter". Linux terminals will not show any indication like *** when passwords are entered)
 
 ## Switch user to root
-1. Type command "sudo -i"
+1. Type command `sudo -i`
 2. Enter password for appuser when prompted. Now you have swithed to root user
 
 ## Check if Valar landing service is running
-1. Go to the Valar Landing directory using the command "cd /home/appuser/valar_landing/valar-landing-main"
-2. Check if Valar landing process is already running using command "ps ef | grep valar-landing-server"
+1. Go to the Valar Landing directory using the command `cd /home/appuser/valar_landing/valar-landing-main`
+2. Check if Valar landing process is already running using command `ps ef | grep valar-landing-server`
 3. If the valar landing process is running then you will see an output like below
 
 `
