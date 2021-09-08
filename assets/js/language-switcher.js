@@ -32,7 +32,7 @@ const EN = {
     "card_title_3": "Suggest solutions",
     "card_desc_3": "Offer suggestions to others problem statements / challenges",
     "contact_title": "Contact Us",
-    "contact_address": "Department of Information Technology Government of Tamilnadu Namakkal Kavignar Maaligai Fort St George, Secretariat, Chennai-600009",
+    "contact_address": "Department of Information Technology, Government of Tamilnadu, Namakkal Kavignar Maaligai, Fort St George, Secretariat, Chennai-600009",
     "follow_title": "Follow Us"
 
 }
