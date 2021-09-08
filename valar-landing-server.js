@@ -33,8 +33,8 @@ httpServer.listen(HTTP_PORT, () => {
 
 //Create the https server
 const httpsServer = https.createServer({
-  key: fs.readFileSync('<key-path>/privatekey.pem'),
-  cert: fs.readFileSync('<key-path>/cert.pem'),
+  key: fs.readFileSync('/home/appuser/SSL/key.pem'),
+  cert: fs.readFileSync('/home/appuser/SSL/server.crt'),
 }, app);
 
 const HTTPS_PORT = 443
